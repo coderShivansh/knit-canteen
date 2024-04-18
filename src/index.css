@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+body ,html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Play", sans-serif !important;
+  font-weight: 700;
+  font-style: normal;
+  overflow-x: hidden !important;
+}
+
+.nav-link
+{
+  color:black;
+  padding-right: 50px;
+  margin-right:20px;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  font-size:20px !important;
+}
+.flex-container
+{
+  display: flex !important;
+}
+.btn{
+  background-color: rgb(255, 0, 123) !important;
+  color: black !important;
+
+}
+
+select{
+  box-shadow: none !important;
+  border-color:black !important
+}
+
+.fa-plus{
+  color:green;
+  margin: 5px;
+}
+
+.fa-minus{
+  color:red;
+ margin: 5px;
+}
+
+.fa-trash{
+  color:red;
+}
+
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+.adminfunction{
+  padding : 10px;
+  background-color: aqua;
+}
+.adminfunction li{
+  list-style-type: none !important;
+  display: inline !important;
+  color: rgb(195, 7, 7) !important;
+
+}
+
+.adminfunction li a{
+  color:rgb(205, 6, 6) !important;
+  padding : 20px;
+}
+
+td,th,tr{
+  text-align: left;
+}
