@@ -49,9 +49,9 @@ export default function Registerscreen() {
                 <h2 style={{ fontSize: '35px', textAlign: 'center' }} className='m-2'>REGISTER</h2>
                 <div className='mt-5'>
                     <input required type="text" placeholder="name" className='form-control' value={name} onChange={(e) => { setname(e.target.value) }} />
-                    <input required type="text" placeholder="email" className='form-control' value={email} onChange={(e) => { setemail(e.target.value) }} />
-                    <input required type="text" placeholder="password" className='form-control' value={password} onChange={(e) => { setpassword(e.target.value) }} />
-                    <input required type="text" placeholder="confirm password" className='form-control' value={cpassword} onChange={(e) => { setcpassword(e.target.value) }} />
+                    <input required type="email" placeholder="email" className='form-control' value={email} onChange={(e) => { setemail(e.target.value) }} />
+                    <input required type="password" placeholder="password" className='form-control' value={password} onChange={(e) => { setpassword(e.target.value) }} />
+                    <input required type="password" placeholder="confirm password" className='form-control' value={cpassword} onChange={(e) => { setcpassword(e.target.value) }} />
                     <button className='btn mt-4 mb-3' onClick={register}>REGISTER</button>
                     <br/>
                     <a  style={{color: 'black'}} href='/login'>Click Here To Login....</a>
