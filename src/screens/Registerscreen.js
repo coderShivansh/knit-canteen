@@ -21,7 +21,7 @@ export default function Registerscreen() {
 
      function register(){
         
-          const regEx = /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}(?:\.[a-z]{2,8})/g;
+          const regEx =/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
           if(!regEx.test(email))
           {
             alert("enter valid email")
