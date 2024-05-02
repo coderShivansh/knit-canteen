@@ -22,13 +22,13 @@ export default function Registerscreen() {
      function register(){
         
           const regEx =/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-          if(!regEx.test(email))
-          {
-            alert("enter valid email")
-          }
-          else if ( password !== cpassword){
-          alert("password not matched !!")
-          }
+           if (!regEx.test(email)) {
+    alert("Enter a valid email");
+  } else if (password.length < 8) {
+    alert("Password must be at least 8 characters long");
+  } else if (password !== cpassword) {
+    alert("Passwords do not match");
+  }
           else{
             const user={
               name,
