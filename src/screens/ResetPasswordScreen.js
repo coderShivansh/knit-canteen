@@ -14,6 +14,11 @@ export default function ResetPassword() {
       setErrorMessage("Passwords do not match.");
       return;
     }
+        if (newPassword.length < 8) {
+      setErrorMessage("Password must be at least 8 characters long.");
+      return;
+    }
+
 
     try {
       const token = window.location.search.substring(1);
